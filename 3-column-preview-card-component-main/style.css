@@ -1,0 +1,70 @@
+
+body {
+  background-color: rgb(232, 238, 240);
+  font-family: Arial, sans-serif;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.background {
+  background-color: white ;
+  width: 90%;
+  height: 500px;
+  margin: 100px auto;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 700px;
+  border-radius: 10px;
+   overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  padding: 50px;
+  color: white;
+}
+.card h2 {
+  margin: 20px 0;
+}
+
+.card p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+
+.sedan { background-color: rgb(226, 149, 6); }
+.suv { background-color: rgb(8, 102, 102); }
+.luxury { background-color: rgb(2, 53, 53); }
+
+.sedan button { color: rgb(247, 162, 4); }
+.suv button { color: rgb(8, 102, 102); }
+.luxury button { color:rgb(2, 53, 53); }
+
+
+.card button:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+  }
+}
+
+
+
+
+
