@@ -1,4 +1,8 @@
 
+ * {
+  box-sizing: border-box;
+}
+ل
 body {
   background-color: rgb(232, 238, 240);
   font-family: Arial, sans-serif;
@@ -57,10 +61,16 @@ body {
   border: 1px solid white;
 }
 
+
 @media (max-width: 768px) {
+  .outer-background {
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+  }
+
   .container {
     flex-direction: column;
-    width: 90%;
   }
 }
 
